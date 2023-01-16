@@ -76,6 +76,7 @@ body{
     background: rgba(var(--blue),1);
     margin-top: 30px;
     box-sizing: border-box;
+    width: 100vw;
 }
 h1{
     font-size: 58px;
@@ -90,8 +91,8 @@ h1{
     align-items: flex-end;
 }
 .edits{
-    min-width: 500px;
-    width: 100%;
+    /* min-width: 500px; */
+    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
